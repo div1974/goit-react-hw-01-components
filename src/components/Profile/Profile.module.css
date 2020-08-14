@@ -1,0 +1,36 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+}
+
+.avatar {
+  border-radius: 100px; /* Радиус скругления */
+}
+
+.name {
+  color: black;
+  font-size: 22px;
+}
+
+.tag,
+.location {
+  color: grey;
+  font-size: 18px;
+}
+
+.stats {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.label {
+  color: blue;
+  display: flex;
+}
