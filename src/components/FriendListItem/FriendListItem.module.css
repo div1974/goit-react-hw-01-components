@@ -1,59 +1,35 @@
-
-
-
-
-.item{
-    display:flex;
-    /* flex-direction: column; */
-    /* flex-basis: auto;
-    flex-grow: 1; */
-    border: 0.5px solid teal;
-    /* align-items: center; */
-    /* justify-content:space-evenly; */
-    margin-bottom: 10px;
-    color: crimson;
-    /* list-style-type: circle; */
-    
-    
+.item {
+  display: flex;
+  border: 0.5px solid teal;
+  margin-bottom: 10px;
+  color: crimson;
 }
 
-.status {/*собственно сам маркер*/
-    /* background-color: black;
-    border: 1px solid blue;
-    border-radius: 3px 3px 3px 3px;
-    color: red;
-     content: "$";здесь можно в символьном виде задать отображение маркера */
-     content: '';
-  /* display: inline-block; */
-  height:16px;
+.status {
+  /*собственно сам маркер*/
+
+  content: '';
+  height: 16px;
   width: 16px;
-  /* vertical-align: middle; */
-  border-radius:50%;
-  
-  margin:0 20px;
+  border-radius: 50%;
+  margin: 0 20px;
   align-self: center;
 }
 
-.active{
-    composes: status;
-    background-color:green;
+.active {
+  composes: status;
+  background-color: green;
 }
-.notActive{
-    composes: status;
-    background-color:red;
-}
-
-.name{
-    color: black;
-    /* display: flex; */
-    /* justify-content:space-between; */
-    /* margin: AUTO; */
-    /* align-self: center; */
-    margin-left: 20px;
-    
+.notActive {
+  composes: status;
+  background-color: red;
 }
 
-.percentage{
-    color: black;
-    /* display: flex; */
+.name {
+  color: black;
+  margin-left: 20px;
+}
+
+.percentage {
+  color: black;
 }

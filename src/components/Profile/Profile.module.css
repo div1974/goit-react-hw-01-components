@@ -10,6 +10,7 @@
 
 .avatar {
   border-radius: 100px; /* Радиус скругления */
+  max-width: 150px;
 }
 
 .name {
@@ -34,3 +35,5 @@
   color: blue;
   display: flex;
 }
+
+
